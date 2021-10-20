@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Te Ayudo MMHVO</title>
+    </head>
+    <body>
+        <div class="login">
+            <div class="login__content">
+                <div class="login__img">
+                    <img src="./assets/img/img-login.svg" alt="">
+                </div>
+
+                <div class="login__forms">
+                    <form action="" class="login__registre" id="login-in">
+                        <h1 class="login__title">Iniciar sesión</h1>
+    
+                        <div class="login__box">
+                            <i class='bx bx-user login__icon'></i>
+                            <input type="text" placeholder="Usuario" class="login__input">
+                        </div>
+    
+                        <div class="login__box">
+                            <i class='bx bx-lock-alt login__icon'></i>
+                            <input type="password" placeholder="Contraseña" class="login__input">
+                        </div>
+
+                        <a href="#" class="login__forgot">Olvidaste tu contraseña?</a>
+
+                        <a href="#" class="login__button">Ingresar</a>
+
+                        <div>
+                            <span class="login__account">No tienes una cuenta?</span>
+                            <span class="login__signin" id="sign-up">Registrarte</span>
+                        </div>
+                    </form>
+
+                    <form action="" class="login__create none" id="login-up">
+                        <h1 class="login__title">Crear cuenta</h1>
+    
+                        <div class="login__box">
+                            <i class='bx bx-user login__icon'></i>
+                            <input type="text" name="name" placeholder="Nombre de Usuario" class="login__input" required>
+                        </div>
+    
+                        <div class="login__box">
+                            <i class='bx bx-at login__icon'></i>
+                            <input type="email" name="email" placeholder="Correo" class="login__input" required>
+                        </div>
+
+                        <div class="login__box">
+                            <i class='bx bx-lock-alt login__icon'></i>
+                            <input type="password" alt="strongPass"id="password1" name="password1" placeholder="Contraseña" class="login__input" required>
+                        </div>
+                        <span  id="error" class="login__forgot none ">Las contraseñas no coinciden</span>
+                        <div class="login__box">
+                            <i class='bx bx-lock-alt login__icon'></i>
+                            <input type="password"  alt="strongPass" id="password2" name="password2" placeholder="Confirmar Contraseña" class="login__input" required>
+                        </div>
+                        <a href="#" class="login__button" id="sign">Ingresar</a>
+
+                        <div>
+                            <span class="login__account">Ya tienes una cuenta?</span>
+                            <span class="login__signup" id="sign-in">Iniciar sesión</span>
+                        </div>
+
+                        <div class="login__social">
+                            <a href="#" class="login__social-icon"><i class='bx bxl-facebook' ></i></a>
+                            <a href="#" class="login__social-icon"><i class='bx bxl-apple' ></i></a>
+                            <a href="#" class="login__social-icon"><i class='bx bxl-google' ></i></a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
